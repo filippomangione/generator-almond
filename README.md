@@ -2,8 +2,6 @@
 
 [Yeoman](http://yeoman.io) generator that scaffolds out a front-end web app with AMD capabilities.
 
-![](http://i.imgur.com/uKTT2Hj.png)
-
 ## Features
 * RequireJS
 * Optimized build with [Almond](https://github.com/jrburke/almond)
