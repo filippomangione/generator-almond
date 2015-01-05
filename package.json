@@ -15,13 +15,13 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
     "web",
     "app",
     "AMD",
     "front-end",
     "requirejs",
-    "bootstrap"
+    "bootstrap",
     "modernizr",
     "jquery",
     "less"
