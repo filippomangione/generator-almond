@@ -1,0 +1,40 @@
+{
+  "name": "generator-almond",
+  "version": "0.1.0",
+  "description": "Yeoman generator that scaffolds out a front-end web app with AMD capabilities.",
+  "main": "app/index.js",
+  "repository": "filippomangione/generator-almond",
+  "author": {
+    "name": "Filippo Mangione",
+    "url": "https://github.com/filippomangione"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+    "web",
+    "app",
+    "AMD",
+    "front-end",
+    "requirejs",
+    "bootstrap"
+    "modernizr",
+    "jquery",
+    "less"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.18.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}

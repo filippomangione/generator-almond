@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><%= appname %></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- Place favicon.ico in the root directory -->
+  
+  <% if (includeFontAwesome) { %>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <% } %>
+  <% if (includeBootstrap) { %>
+  <!-- build:css(app) styles/vendor/bootstrap/css/bootstrap.min.css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <!-- endbuild -->
+  <% } else { %>
+  <!-- build:css(app) styles/vendor/normalize.min.css -->
+  <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+  <!-- endbuild -->
+  <% } %>
+
+  <!-- build:css(app) styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+
+  <% if (includeModernizr) { %>
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+  <% } %>
+
+</head>
+<body>
+  <!--[if lt IE 8]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+  <div class="hero-unit">
+    <h1>'Allo, 'Allo!</h1>
+    <p>You now have:</p>
+    <ul>
+    <% if (includeBootstrap) { %><li>Bootstrap</li><% } %>
+    <% if (includeUnderscore) { %><li>Underscore</li><% } %>
+    <% if (includeModernizr) { %><li>Modernizr</li><% } %>
+    <% if (includeFontAwesome) { %><li>Font Awesome</li><% } %>
+    <% if (includeLess) { %><li>LESS</li><% } %>
+    <% if (includeLessHat) { %><li>LESS Hat</li><% } %>
+    </ul>
+  </div>
+
+  <script data-main="scripts/config" src="bower_components/requirejs/require.js"></script>
+
+</body>
+</html>
