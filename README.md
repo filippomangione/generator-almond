@@ -5,7 +5,7 @@
 ## Features
 * RequireJS
 * Optimized build with [Almond](https://github.com/jrburke/almond)
-* Automagically compile Less (Optional)
+* Less auto-compile (Optional)
 * Twitter Bootstrap (Optional)
 * Font Awesome (Optional)
 * [LESS Hat 3.0](https://github.com/madebysource/lesshat) (Optional)
